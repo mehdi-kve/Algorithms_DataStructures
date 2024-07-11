@@ -1,4 +1,3 @@
-// passes 5/6 tests
 function checkCashRegister(price, cash, cid) {
     // unite values dictionary  
     let UNIT_VALUE = {  
@@ -38,14 +37,12 @@ function checkCashRegister(price, cash, cid) {
         changeState.status = "INSUFFICIENT_FUNDS";
     }
 
-
     if(totalCid == refund){
-        changeState.status == "ClOSED";
+        changeState.status = "CLOSED";
+        changeState.change = [...cid];
     }
 
-
-
-    if( totalCid >= refund){
+    if( totalCid > refund){
         let change = []
         for (var i = 0; i < 9; i++){
     
@@ -82,4 +79,3 @@ function checkCashRegister(price, cash, cid) {
     }
     return changeState;
 }
-
