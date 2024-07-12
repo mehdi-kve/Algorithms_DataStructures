@@ -1,6 +1,6 @@
 # Algorithms & DataStructures
 
-Solutions to JS Algorithms and Data Structures Course on Freecodecamp
+Solutions to JS Algorithms and Data Structures projects on Freecodecamp
 
 List of contents:
 
@@ -33,6 +33,8 @@ All roman numerals answers should be provided in upper-case.
 | Arabic numerals | 1 | 4 | 5 | 9 | 10 | 40 | 50 | 90 | 100 | 400 | 500 | 900 | 1000|
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
 | Roman numerals | I | IV | V | IX | X | XL | L | XC | C | CD | D | CM | M |
+
+</br>
 
 ## Caesars Cipher
 
@@ -87,16 +89,17 @@ See below for an example of a cash-in-drawer array:
   ["TWENTY", 60],
   ["ONE HUNDRED", 100]
 
-  Currency Unit	Amount
-  Penny	$0.01 (PENNY)
-  Nickel	$0.05 (NICKEL)
-Dime	$0.1 (DIME)
-  Quarter	$0.25 (QUARTER)
-Dollar	$1 (ONE)
-Five Dollars	$5 (FIVE)
-Ten Dollars	$10 (TEN)
-Twenty Dollars	$20 (TWENTY)
-One-hundred Dollars	$100 (ONE HUNDRED)
+  UNIT_VALUE = {  
+  "PENNY": 0.01, 
+  "NICKEL": 0.05, 
+  "DIME": 0.1, 
+  "QUARTER": 0.25, 
+  "ONE": 1, 
+  "FIVE": 5, 
+  "TEN": 10, 
+  "TWENTY": 20, 
+  "ONE HUNDRED": 100
+    }
 ]
 ```
 
