@@ -89,7 +89,7 @@ See below for an example of a cash-in-drawer array:
   ["TWENTY", 60],
   ["ONE HUNDRED", 100]
 
-  UNIT_VALUE = {  
+  {  
   "PENNY": 0.01, 
   "NICKEL": 0.05, 
   "DIME": 0.1, 
@@ -99,7 +99,7 @@ See below for an example of a cash-in-drawer array:
   "TEN": 10, 
   "TWENTY": 20, 
   "ONE HUNDRED": 100
-    }
+  }
 ]
 ```
 
