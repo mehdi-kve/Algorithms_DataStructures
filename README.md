@@ -1,8 +1,8 @@
-# Algorithms DataStructures
+# Algorithms & DataStructures
 
-FreeCodeCamp Algorithms and Data Structures Course solutions
+Solutions to JS Algorithms and Data Structures Course on Freecodecamp
 
-List of content:
+List of contents:
 
 - Palindrome Checker
 - Roman Numeral Converter
@@ -33,8 +33,6 @@ All roman numerals answers should be provided in upper-case.
 | Arabic numerals | 1 | 4 | 5 | 9 | 10 | 40 | 50 | 90 | 100 | 400 | 500 | 900 | 1000|
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
 | Roman numerals | I | IV | V | IX | X | XL | L | XC | C | CD | D | CM | M |
-</br>
-
 
 ## Caesars Cipher
 
@@ -70,24 +68,14 @@ cid is a 2D array listing available currency.
 
 The checkCashRegister() function should always return an object with a status key and a change key.
 
-Return {status: "INSUFFICIENT_FUNDS", change: []} if cash-in-drawer is less than the change due, or if you cannot return the exact change.
+Return ```{status: "INSUFFICIENT_FUNDS", change: []}``` if cash-in-drawer is less than the change due, or if you cannot return the exact change.
 
-Return {status: "CLOSED", change: [...]} with cash-in-drawer as the value for the key change if it is equal to the change due.
+Return ```{status: "CLOSED", change: [...]} ``` with cash-in-drawer as the value for the key change if it is equal to the change due.
 
-Otherwise, return {status: "OPEN", change: [...]}, with the change due in coins and bills, sorted in highest to lowest order, as the value of the change key.
-Currency Unit	Amount
-Penny	$0.01 (PENNY)
-Nickel	$0.05 (NICKEL)
-Dime	$0.1 (DIME)
-Quarter	$0.25 (QUARTER)
-Dollar	$1 (ONE)
-Five Dollars	$5 (FIVE)
-Ten Dollars	$10 (TEN)
-Twenty Dollars	$20 (TWENTY)
-One-hundred Dollars	$100 (ONE HUNDRED)
-
+Otherwise, return ```{status: "OPEN", change: [...]}```, with the change due in coins and bills, sorted in highest to lowest order, as the value of the change key.
 See below for an example of a cash-in-drawer array:
 
+```javascript
 [
   ["PENNY", 1.01],
   ["NICKEL", 2.05],
@@ -98,7 +86,20 @@ See below for an example of a cash-in-drawer array:
   ["TEN", 20],
   ["TWENTY", 60],
   ["ONE HUNDRED", 100]
+
+  Currency Unit	Amount
+  Penny	$0.01 (PENNY)
+  Nickel	$0.05 (NICKEL)
+Dime	$0.1 (DIME)
+  Quarter	$0.25 (QUARTER)
+Dollar	$1 (ONE)
+Five Dollars	$5 (FIVE)
+Ten Dollars	$10 (TEN)
+Twenty Dollars	$20 (TWENTY)
+One-hundred Dollars	$100 (ONE HUNDRED)
 ]
+```
+
 
 
 
