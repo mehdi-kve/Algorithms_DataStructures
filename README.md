@@ -4,11 +4,11 @@ Solutions to JS Algorithms and Data Structures projects on Freecodecamp
 
 List of contents:
 
-- Palindrome Checker
-- Roman Numeral Converter
-- Caesars Cipher
-- Telephone Number Validator
-- Cash Register
+- [Palindrome Checker]
+- [Roman Numeral Converter]
+- [Caesars Cipher]
+- [Telephone Number Validator]
+- [Cash Register]
 </br></br>
 
 ## Palindrome Checker
@@ -102,7 +102,11 @@ See below for an example of a cash-in-drawer array:
   }
 ]
 ```
-
+[Palindrome Checker]:https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker
+[Roman Numeral Converter]: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher
+[Caesars Cipher]: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher
+[Telephone Number Validator]: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/telephone-number-validator
+[Cash Register]: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/cash-register
 
 
 
